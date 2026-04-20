@@ -1,0 +1,35 @@
+{
+  "name": "claude-code-onboarding",
+  "version": "0.1.0",
+  "description": "Skill de Claude Code que guía a un developer a incorporar IA a su flujo de trabajo, con foco en seguridad y buenas prácticas.",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "onboarding",
+    "ai",
+    "developer-tools"
+  ],
+  "author": "Ramón Fajardo",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/ramonfajardo-tech/claude-code-onboarding#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonfajardo-tech/claude-code-onboarding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramonfajardo-tech/claude-code-onboarding/issues"
+  },
+  "bin": {
+    "claude-code-onboarding": "bin/install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "assets/",
+    "references/",
+    "bin/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
