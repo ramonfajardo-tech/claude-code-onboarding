@@ -6,6 +6,41 @@ Sirve tanto para arrancar un proyecto desde cero (greenfield) como para introduc
 
 ---
 
+## Instalación
+
+Requiere Node.js 18+.
+
+**Global (recomendado — instala en `~/.claude/skills/`):**
+
+```bash
+npx github:ramonfajardo-tech/claude-code-onboarding
+```
+
+**Local al repo actual (instala en `<repo>/.claude/skills/`):**
+
+```bash
+npx github:ramonfajardo-tech/claude-code-onboarding --local
+```
+
+**Pinear a un tag o rama específica:**
+
+```bash
+npx github:ramonfajardo-tech/claude-code-onboarding#v0.1.0
+npx github:ramonfajardo-tech/claude-code-onboarding#develop
+```
+
+**Desinstalar:**
+
+```bash
+npx github:ramonfajardo-tech/claude-code-onboarding --uninstall
+```
+
+Opciones disponibles con `--help`.
+
+Una vez instalada, Claude Code la reconoce automáticamente en tu próxima sesión. Disparala diciendo frases como "estoy arrancando con Claude" o "primera vez con IA para programar" (ver [Cómo se dispara](#cómo-se-dispara)).
+
+---
+
 ## Qué hace
 
 Cuando la skill se dispara, acompaña al dev durante 15 a 30 minutos por 7 fases:
